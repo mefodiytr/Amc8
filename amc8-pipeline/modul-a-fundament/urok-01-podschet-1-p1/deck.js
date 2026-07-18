@@ -141,11 +141,11 @@ function branchStrip(s, x, y, counts, joiner, result) {
 {
   const s = pres.addSlide();
   K.artOrBg(s, path.join(IMG, "img-03.png"));
-  K.panel(pres, s, 6.6, 0.6, 6.2, 6.3, 6);
-  s.addText("Приём: ДЕРЕВО ВЫБОРОВ", { x: 6.95, y: 1.1, w: 5.6, h: 1.3,
-    fontFace: T.H, fontSize: 28, bold: true, color: T.AMBER, valign: "middle", lineSpacingMultiple: 1.05, margin: 0 });
-  s.addText("Путей = перемножить ветки:  2 × 2 × 2 = 8.\n\nНо путь ≠ результат — склей одинаковые листья:\n\n→ 6 разных баллов.",
-    { x: 6.95, y: 2.5, w: 5.5, h: 4.0, fontFace: T.B, fontSize: 20, color: T.CREAM, lineSpacingMultiple: 1.2, margin: 0 });
+  K.panel(pres, s, 0.5, 4.3, 8.0, 2.7, 6);              // героиня справа → текст вниз-влево
+  s.addText("Приём: ДЕРЕВО ВЫБОРОВ", { x: 0.85, y: 4.5, w: 7.4, h: 0.7,
+    fontFace: T.H, fontSize: 27, bold: true, color: T.AMBER, valign: "middle", margin: 0 });
+  s.addText("Путей = перемножить ветки:  2 × 2 × 2 = 8.\nНо путь ≠ результат — склей одинаковые листья  →  6 разных баллов.",
+    { x: 0.85, y: 5.35, w: 7.4, h: 1.5, fontFace: T.B, fontSize: 19, color: T.CREAM, lineSpacingMultiple: 1.2, margin: 0 });
   s.addNotes("Здесь даём ИМЯ приёма (не раньше). Ответ основной: (C) 6.");
 }
 
@@ -196,11 +196,11 @@ function branchStrip(s, x, y, counts, joiner, result) {
 {
   const s = pres.addSlide();
   K.artOrBg(s, path.join(IMG, "img-05.png"));
-  K.panel(pres, s, 6.5, 0.6, 6.3, 6.3, 6);
-  s.addText("Граница: 3 в команду (мест нет)", { x: 6.85, y: 1.05, w: 5.7, h: 0.7,
-    fontFace: T.H, fontSize: 24, bold: true, color: T.AMBER, margin: 0 });
-  s.addText("Дерево-по-местам:  5 · 4 · 3 = 60\n\nно одну тройку оно проходит\n3! = 6 раз\n\n60 : 6 = 10\n\nПорядок не важен → дерево считает лишнее.",
-    { x: 6.85, y: 1.9, w: 5.6, h: 4.6, fontFace: T.B, fontSize: 19, color: T.CREAM, lineSpacingMultiple: 1.2, margin: 0 });
+  K.panel(pres, s, 0.5, 4.5, 8.2, 2.5, 5);             // тройки справа не закрывать → текст вниз-влево
+  s.addText("Граница: 3 в команду (мест нет)", { x: 0.85, y: 4.65, w: 7.6, h: 0.6,
+    fontFace: T.H, fontSize: 23, bold: true, color: T.AMBER, margin: 0 });
+  s.addText("Дерево-по-местам 5 · 4 · 3 = 60, но одну тройку оно проходит 3! = 6 раз  →  60 : 6 = 10.\nПорядок не важен → дерево считает лишнее.",
+    { x: 0.85, y: 5.35, w: 7.6, h: 1.5, fontFace: T.B, fontSize: 18, color: T.CREAM, lineSpacingMultiple: 1.15, margin: 0 });
   s.addNotes("Не решать полностью — показать «перебор». Мостик к Подсчёту-2. Ответ 10.");
 }
 
