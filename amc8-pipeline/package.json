@@ -1,0 +1,9 @@
+{
+  "name": "amc8-pipeline",
+  "version": "1.0.0",
+  "description": "Конвейер материалов подготовки к AMC 8 для Claude Code",
+  "private": true,
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}

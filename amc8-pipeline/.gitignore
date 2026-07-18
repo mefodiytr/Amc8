@@ -1,0 +1,9 @@
+*.pptx
+node_modules/
+**/img/
+__pycache__/
+.DS_Store
+amc-corpus.md
+corpus_pdf/
+../corpus_pdf/
+**/deck.pptx

@@ -1,3 +1,8 @@
 *.docx
 AMC8-материалы-Word.zip
 _zip/
+amc8-pipeline/node_modules/
+amc8-pipeline/**/img/
+amc8-pipeline/**/*.pptx
+amc8-pipeline/amc-corpus.md
+corpus_pdf/
