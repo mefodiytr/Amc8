@@ -8,3 +8,5 @@ amc8-pipeline/amc-corpus.md
 corpus_pdf/
 !amc8-pipeline/modul-a-fundament/urok-01-podschet-1-p1/img/
 !amc8-pipeline/modul-a-fundament/urok-01-podschet-1-p1/img/*.png
+!amc8-pipeline/modul-a-fundament/urok-02-podschet-2-p1/img/
+!amc8-pipeline/modul-a-fundament/urok-02-podschet-2-p1/img/*.png
